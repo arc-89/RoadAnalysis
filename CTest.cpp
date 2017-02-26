@@ -10,5 +10,8 @@ Class CTest
 	public:
 		Ctest(int var1, float var2);
 		void vSetMemberVariables(int var1, float var2);
-		void v_getMemberVariables();		
+		int iGetMemberVariable1()
+		{
+			return m_testVar1;
+		}		
 }:
